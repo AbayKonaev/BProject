@@ -63,19 +63,20 @@ _END;
 
       if ($row['pm'] == 0 || $row['auth'] == $user || $row['recip'] == $user)
       {
+      	echo "<span class='mar'></span>";
         echo date('M jS \'y g:ia:', $row['time']);
         echo " <a href='messages.php?view=" . $row['auth'] .
              "'>" . $row['auth']. "</a> ";
 
         if ($row['pm'] == 0)
-          echo "wrote: &quot;" . $row['message'] . "&quot; ";
+          echo "написал: &quot;" . $row['message'] . "&quot; ";
         else
           echo "whispered: <span class='whisper'>&quot;" .
             $row['message']. "&quot;</span> ";
 
         if ($row['recip'] == $user)
           echo "[<a href='messages.php?view=$view" .
-               "&erase=" . $row['id'] . "'>erase</a>]";
+               "&erase=" . $row['id'] . "'>удалить</a>]";
 
         echo "<br>";
       }

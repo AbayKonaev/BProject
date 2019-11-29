@@ -1,8 +1,8 @@
 <?php
   $dbhost  = 'localhost';
-  $dbname  = 'pop';
-  $dbuser  = 'pop';
-  $dbpass  = 'p'; 
+  $dbname  = 'cw93977_lol';
+  $dbuser  = 'cw93977_lol';
+  $dbpass  = 'PUx48Lw5'; 
 
   $connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
   if ($connection->connect_error) die("Fatal Error");

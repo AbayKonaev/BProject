@@ -64,10 +64,10 @@ a {
  	box-shadow: 0 0 5px rgba(0,0,0,0.5); 	
 }
 .bit{
-	display :block;
+	 display :block;
   	padding: 8px;
   	border: none;
- 	border-radius: 5px;
+ 	  border-radius: 5px;
    	margin-bottom: 10PX;
    	font-weight: bold;
 	cursor: pointer;
@@ -236,4 +236,5 @@ h4{margin-left: 20%;}
 	#hat{
 		width: 91%;
 	}
+  .dopdot{display: none;}
 	}

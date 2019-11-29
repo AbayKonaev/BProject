@@ -28,7 +28,7 @@ echo <<<_MAIN
   </head>
   <body>
   <header>
-        <div id='logo' class='center'>Three<a href="index.php"><img id='ima' src='картинки/23.png'></a>Bla</div>
+        <div id='logo' class='center'>Three<a href="index.php"><img id='ima' src='img/23.png'></a>Bla</div>
       </header>
     <div class="main">
       
